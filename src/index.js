@@ -7,7 +7,9 @@ ReactDOM.render(
   <div>
 
     <div class="navbar"></div>
-    <div class="search-bar"></div>
+    <div class="search-bar">
+      <div class="search-bar-text"> Search for project  name , industry or tag... </div>
+    </div>
 
     <div class="row-1">
       <div class="card-1">
