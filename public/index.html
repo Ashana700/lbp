@@ -7,111 +7,149 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>React App</title>
   <style>
-    .first-element {
+    .navbar {
       position: absolute;
-      width: 1440px;
-      height: 100px;
+      width: 100%;
+      height: 120px;
       left: 0px;
       top: 0px;
+      background: #2980B9;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .search-bar {
+      width: 62%;
+      position: absolute;
+      height: 60px;
+      /* left: 266px; */
+      top: 181px;
+      left: 18.47%;
+
       background: #FFFFFF;
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
     }
 
-    .second-element {
+    .card-1 {
       position: absolute;
-      width: 1440px;
-      height: 160px;
-      left: 0px;
-      top: 100px;
-      background: rgba(19, 160, 254, 0.1);
+      width: 28.125%;
+      height: 504px;
+      /* left: 266px; */
+      left: 18.47%;
+      top: 326px;
+
+      background: #FFFFFF;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
     }
 
-    .heading {
+    .card-2 {
       position: absolute;
-      height: 330px;
-      width: 1440px;
-      /* left: 616px; */
-      top: 260px;
-      /* background-color: blue; */
+      width: 28.125%;
+      height: 504px;
+      /* left: 757px; */
+      left: 52.569%;
+      top: 326px;
 
-      /* font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 60px; */
-      /* identical to box height, or 150% */
-
-      display: flex;
-      justify-content: center;
-      /* align-items: center;
-text-align: center;
-
-color: #13A0FE; */
-
+      background: #FFFFFF;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 5px;
     }
 
-    .title-1 {
-      width: 208px;
+    .row-2 {
+      top: 900px;
+    }
+
+    .row-3 {
+      top: 1474px;
+    }
+
+    .row-4 {
+      top: 2048px;
+    }
+
+    .row-5 {
+      top: 2622px;
+    }
+
+    .card-heading {
+      position: relative;
+      margin-top: 6.5%;
+      margin-bottom: 2%;
+      text-align: center;
+
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 700;
-      font-size: 40px;
-      line-height: 60px;
-      /* identical to box height, or 150% */
+      font-size: 28px;
+      line-height: 28px;
 
-      display: flex;
-      align-items: center;
-      text-align: center;
+      color: rgba(0, 0, 0, 0.8);
 
-      color: #13A0FE;
     }
 
-    .title-2 {
-      width: 775px;
+    .card-subheading {
+      position: relative;
+      text-align: left;
+      padding-top: 5%;
+      padding-left: 9%;
+
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 19px;
+      /* identical to box height */
+
+
+      color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .card-subheading-content {
+      position: relative;
+      padding-left: 9%;
+      padding-right: 9%;
+      padding-top: 1.5%;
+
       font-family: 'Roboto';
       font-style: normal;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 40px;
-      /* or 167% */
+      font-size: 16px;
+      line-height: 19px;
+    }
 
-      display: flex;
-      align-items: center;
+    .button-box {
+      position: relative;
+      background: #2980B9;
+      width: 82%;
+      height: 44px;
+      margin-left: 9%;
+      margin-right: 9%;
+      margin-top: 5%;
+      /* margin-bottom: 6%; */
+    }
+
+    .button-text {
+      position: relative;
       text-align: center;
+      padding-top: 2%;
+      padding-bottom: 2.5%;
 
-      color: #161616;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 24px;
+      line-height: 28px;
 
-      opacity: 0.6;
+      color: #FFFFFF;
     }
-    .box-1 {
-      position: absolute;
-width: 1240px;
-height: 460px;
-left: 100px;
-top: 500px;
 
-background: rgba(18, 158, 252, 0.1);
-    }
-    .box-2 {
-      position: absolute;
-width: 1240px;
-height: 460px;
-left: 100px;
-top: 1000px;
-
-background: rgba(18, 158, 252, 0.1);
-    }
-    .box-3{
-      position: absolute;
-width: 1240px;
-height: 460px;
-left: 100px;
-top: 1500px;
-
-background: rgba(18, 158, 252, 0.1);
-    }
   </style>
 </head>
 

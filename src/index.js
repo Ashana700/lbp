@@ -1,46 +1,215 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap';
+import { Navbar, Nav, Container, button } from 'react-bootstrap';
 
 ReactDOM.render(
-  <React.StrictMode>
-    {/* <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar> */}
-
-<div class="first-element"></div>
-<div class="second-element"></div>
-<div class="heading">
   <div>
- <div class="title-1">All projects</div>
- <div class="title-2">Browse through all the projects running in IITR and choose the one which
- suits best for your skills !</div>
- </div>
-</div>
 
-<div class="box-1"></div>
-<div class="box-2"></div>
-<div class="box-3"></div>
+    <div class="navbar"></div>
+    <div class="search-bar"></div>
 
+    <div class="row-1">
+      <div class="card-1">
+        <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-2">
+      <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+     <div>
+     
+     <div class="card-1 row-2">
+        <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-2 row-2">
+      <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
 
-  </React.StrictMode>,
+      <div class="card-1 row-3">
+        <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-2 row-3">
+      <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-1 row-4">
+        <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-2 row-4">
+      <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-1 row-5">
+        <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      <div class="card-2 row-5">
+      <div class="card-content">
+          <div class="card-heading">Metal 3-D Printer</div>
+          <div class="card-subheading"> Overview </div>
+          <div class="card-subheading-content"> Target of the project is to develop a working
+            3-D printer which can be used to print metal
+            parts used in auto mobiles.  </div>
+          <div class="card-subheading"> Industry </div>
+          <div class="card-subheading-content">  Mrauti Motors Ltd. </div>
+          <div class="card-subheading"> Project Duration </div>
+          <div class="card-subheading-content"> 2 Years </div>
+          <div class="card-subheading"> Tags </div>
+          <div class="card-subheading-content"> Machine learning, Micro machining, Nanotech
+            3D modelling, CAD. </div>
+          <div class="button-box">
+            <div class="button-text">More details</div>
+          </div>
+        </div>
+      </div>
+      </div>
+   
+  </div>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
